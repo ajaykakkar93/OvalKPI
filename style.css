@@ -1,0 +1,34 @@
+	.qv-object-OvalKPI .Container {
+		height: 100%;
+		background: linear-gradient(to top, #349d9e 10%, #47d7d8 100%);
+		border-radius: 64px;
+		width: 100%;
+	}
+	.qv-object-OvalKPI .obj {
+		position: relative;
+		top: 25px;
+		text-align: center;
+		border-radius: 45px;
+		background: #fff;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+		height: 60px;
+	}
+	.qv-object-OvalKPI .icon {
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
+	.qv-object-OvalKPI .value{
+		font-size: 20px;
+		color: #000;
+	}
+	.qv-object-OvalKPI .TitleContainer {
+		position: relative;
+		top: 30px;
+		text-align: center;
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+	}/* CSS */

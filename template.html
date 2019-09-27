@@ -1,0 +1,10 @@
+<div qv-extension style="height: 100%; position: relative; overflow: auto;" class="ng-scope">
+		<style id="Style_{{layout.qInfo.qId}}">div[tid={{layout.qInfo.qId}}] .qv-object-nav>a {display: none;} </style>
+		<div class="Container" style="background: {{layput.BGColor}};">
+		<div class="obj">
+				<div class="icon" style="color:{{layout.IconColor}};"><i class="{{layout.Icon}}" style="font-size:24px"></i></div>
+				<div class="value" ng-bind-html="layout.Value" title="{{layout.Value}}"></div>
+		</div>	
+		<div class="TitleContainer" style="{{layout.headerCSS}}"><div class="Title" ng-bind-html="layout.header" title="{{layout.header}}"></div></div>
+	</div>
+</div>
